@@ -27,5 +27,10 @@ public class classify {
         
         System.out.printf("Cindy : ");
         cindy.printInfo();
+
+        cindy = lichyo;
+        cindy.balance = 123;
+
+        lichyo.printInfo();
     }
 }
