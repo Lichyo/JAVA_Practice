@@ -2,7 +2,7 @@ package inheritance;
 
 class Animal
 {
-    private String name;
+    protected String name;
     public Animal (String name) 
     {
         this.name = name;
@@ -23,7 +23,7 @@ class Dog extends Animal
 
     public void bark()
     {
-        System.out.println("barking");
+        System.out.println(name + "barking");
     }
 }
 
